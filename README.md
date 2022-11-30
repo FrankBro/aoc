@@ -1,1 +1,1 @@
-# Advent of Code in k9
+# Advent of Code in ngn/k
