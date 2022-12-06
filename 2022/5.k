@@ -9,12 +9,12 @@ cs:{(" "=)_x}'cs
 is:s_1_i
 is:{os:(&" "=x)_x;.,/os@0 2 4}'is
 
-f:{[cs;is;m]
- (q;ia;ib):(::;d;d)@'*is
- ta:m@q#cs@ia
- cs[ia]:q_cs@ia
- cs[ib]:ta,cs@ib
- $[0=#1_is;cs;f[cs;1_is;m]]}
+f:{
+ (q;a;b):(::;d;d)@'*y
+ t:z@q#x@a
+ x[a]:q_x@a
+ x[b]:t,x@b
+ $[0=#1_y;x;f[x;1_y;z]]}
 
 s:{*'f[cs;is;x]}
 s@{|x}
